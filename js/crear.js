@@ -1,4 +1,4 @@
-const url = 'https://tu-api.onrender.com/peliculas';
+const url = 'https://examen-backend-peliculas.onrender.com';
 
 document.getElementById('formulario').addEventListener('submit', async (e) => {
     e.preventDefault();
