@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get('id');
-const url = `https://tu-api.onrender.com/peliculas/${id}`;
+const url = `https://examen-backend-peliculas.onrender.com${id}`;
 
 async function cargarPelicula() {
     const response = await fetch(url);

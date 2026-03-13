@@ -1,4 +1,4 @@
-const url = 'https://tu-api.onrender.com/peliculas';
+const url = 'http://localhost:3000/peliculas';
 
 document.getElementById('formulario').addEventListener('submit', async (e) => {
     e.preventDefault();
