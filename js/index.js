@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/peliculas';
+const url = 'https://examen-backend-peliculas.onrender.com/pelicula';
 
 async function cargarDatos() {
     const response = await fetch(url);
